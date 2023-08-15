@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d25820a479.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap" rel="stylesheet">
+    <title>Portifólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Cabeçalho da página-->
+    <div class="conteiner">
+        <div id="header">
+            <a>Portfolio</a>
+        </div>
+        <div id="menu">
+            <a href="#services">Meus Serviços</a>
+            <a href="#newsletter">Fale Comigo</a>
+            <a href="#aboutportfolio">Portfolio</a>
+        </div>
+    </div>
+    <!--Sobre mim e foto de perfil-->
+    <div class="conteiner">
+        <div id="titleAndName">
+            <h1>Olá, meu nome é Maria</h1>
+            <p>Sou programadora e gostaria de <br> apresentar meu
+            trabalho para você através deste portfólio.
+            </p>
+            <button>Meus Serviços</button>
+        </div>
+        <div id="profilePhoto">
+            <img src="img/img1.png" alt="Portifólio">
+        </div>
+    </div>
+    <!--Lista de clientes-->
+    <div class="conteiner">
+        <div id="clientList"><p>Alguns dos meus clientes</p></div>
+        <div class="icons" id="apple"><img src="img/apple.png" alt="AppleLogo"></div>
+        <div class="icons" id="slack"><img src="img/slack.png" alt="SlackLogo"></div>
+        <div class="icons" id="spotify"><img src="img/spotify.png" alt="SpotifyLogo"></div>
+    </div>
+    <!--Conheça meus serviços-->
+    <div class="conteiner">
+        <div class="content" id="services">
+            <span>Conheça</span>
+            <h2>Meus serviços</h2>
+            <p style="text-align: center; width: 25%";>Vou ajudar a sua empresa a alcançar grandes resultados.</p>
+        </div>
+    </div>
+    <!--Lista de serviços-->
+    <div class="conteiner">
+        <div class="serviceList">
+            <i class="fa-solid fa-suitcase" style="color: #ffffff; background-color: #1F7CFF;"></i>
+            <h3>Consultoria</h3>
+            <p>Te ajudo a organizar sua empresa e melhorar seus resultados.</p>
+        </div>
+        <div class="serviceList">
+            <i class="fa-regular fa-paper-plane" style="color: #ffffff; background-color: #F75C4E"></i>
+            <h3>Email Marketing</h3>
+            <p style="width: 70%;">Gerenciar campanhas é difícil. Conte comigo para te ajudar.</p>
+        </div>
+        <div class="serviceList">
+            <i class="fa-solid fa-globe" style="color: #FFFFFF; background-color: #F7954E"></i>
+            <h3>Criação de Sites</h3>
+            <p style="width: 70%;">Desenvolvo seu site inteiro do zero e te entrego prontinho.</p>
+        </div>
+    </div>
+    <!--Card sobre os serviços-->
+    <div class="conteiner">
+        <div id="newsletterImg">
+            <img src="img/img2.png" alt="CardNewsletter">
+        </div>
+        <div class="content" id="newsletter">
+            <span>Economize seu tempo</span>
+            <h2>Ganhe mais dinheiro</h2>
+            <p>Digite aqui seu endereço de e-mail. Eu entrarei em contato para fornecer um diagnóstico gratuito.</p>
+            <form action="https://formspree.io/f/xrgvwzaq" method="post">
+                <div class="emailNewsletter">
+                    <input type="email" placeholder="Digite aqui o seu email" name="email" required>
+                </div>
+                <button type="submit" style="padding: 10px 50px 10px 50px;">Enviar</button>
+            </form>
+        </div>
+    </div>
+    <!--Conheça sobre meu portifólio-->
+    <div class="conteiner">
+        <div class="content" id="aboutportfolio">
+            <span>Conheça meu trabalho</span>
+            <h2>Portifólio</h2>
+        </div>
+    </div>
+    <!--Imagens do portifólio-->
+    <div class="conteiner" id="card">
+        <div class="cards">
+            <img src="img/card1.png" alt="Site1">
+        </div>
+        <div class="cards">
+            <img src="img/card2.png" alt="Site2">
+        </div>
+        <div class="cards">
+            <img src="img/card3.png" alt="Site3">
+        </div>
+    </div>
+    <!--Rodapé-->
+    <div class="rodape">
+        <span>Desenvolvido por Marcus Cerqueira</span>
+        <a target="_blank" href="https://www.instagram.com/marcusvccerqueira/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a target="_blank" href="https://www.linkedin.com/in/marcuscerqueira/"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a target="_blank" href="https://github.com/marcusvccerqueira"><i class="fa-brands fa-github"></i></a>
+    </div>
+</body>
+</html>

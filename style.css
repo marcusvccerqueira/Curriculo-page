@@ -1,0 +1,234 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin-top: 0px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.conteiner {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+
+#header {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    text-decoration-line: underline;
+    color: #070F18;
+    margin: 40px 0px 50px 0px;
+}
+
+#menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 28px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+#menu a{
+    text-decoration: none;
+    color: #070F18;
+}
+#titleAndName {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 80px;
+}
+#titleAndName h1 {
+    width: 81%;
+    margin-bottom: 0;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 82px;
+    color: #000000;
+}
+#titleAndName p {
+    width: 80%;
+    margin-top: 15px;
+    margin-bottom: 40px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #575455;
+}
+button {
+    background-color: #1F7CFF;
+    padding: 10px 30px 10px 30px;
+    border-radius: 22px;
+
+    font-family: 'Poppins';
+    border-style: none;
+    color: #FFFFFF;
+}
+button:hover{
+    background-color: #1f6dda;
+}
+#profilePhoto {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#profilePhoto img {
+    width: 500px;
+    height: 380px;
+    border-radius: 30px;
+}
+#clientList {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 46px;
+    margin-bottom: 49px;
+}
+#clientList p{
+    width: 78%;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #070F18;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.icons img {
+    width: auto;
+    height: 30px;
+}
+#services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F75C4E;
+}
+.content h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #000000;
+    margin: 0;
+}
+.content p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #575455;
+    margin-bottom: 60px;
+}
+.serviceList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-st;
+}
+.serviceList i {
+    padding: 15px;
+    border-radius: 50%;
+}
+.serviceList h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #070F18;
+    margin: 20px 0px 0px 0px;
+}
+.serviceList p {
+    margin: 0px 0px 30px 0px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #575455;
+}
+#newsletterImg{
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+#newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 60px;
+}
+.emailNewsletter input {
+    background-color: #F5F6FB;
+    border-radius: 20px;
+    border-style: none;
+    width: 360px;
+    height: 48px;
+    color: #575455;
+    font-family: 'Poppins';
+    font-style: normal;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+#aboutportfolio {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: flex-start;
+    margin: 50px 0px 50px 0px
+}
+#card {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: 30px 0px 50px 0px;
+    gap: 70px;
+}
+.cards {
+    width: auto;
+    height: 225px;
+}
+.rodape {
+    font-family: 'Poppins';
+    text-align: end;
+    color: #575455;
+}
+.rodape a{
+    text-decoration: none;
+    color: inherit;
+}
